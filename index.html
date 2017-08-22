@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+ <body>
+  <section class="subscribe" name="subscribe" onload="document.subscribe.form.email.focus()">
+    <p class="title">Stay up to date with commerce trends with Shopify's newsletter</p>
+    <p class="base-text">Subscribe to Shopify's weekly newsletter for free marketing tips</p>
+    
+    <form class="flex-container" action="/action_page_binary.asp" method="post" name="form" autocomplete="on">
+      <input class="email flex-item" type="email" name="email" formenctype="multipart/form-data" placeholder="Email Address" autofocus required>
+      <input class="submit flex-item" type="submit" name="submit" value="Subcribe" onclick="ValidateEmail(document.subscribe.form.email.focus())">
+    </form>
+    <p class="base-text">Unsubscribe at anytime.</p>
+  </section>
+ </body>
+</html>
